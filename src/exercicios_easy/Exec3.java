@@ -3,12 +3,15 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec3 {
-    public static void main(String[] args) {
+    public String nomeTrocado (String nome, String sobrenome){
+        return sobrenome +" "+  nome;
 
-        String nome, sobrenome;
-        nome = JOptionPane.showInputDialog ("Digite seu nome");
-        sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome");
-        System.out.println("Seu nome completo é:" + sobrenome +" "+ nome);
+//    public static void main(String[] args) {
+//
+//        String nome, sobrenome;
+//        nome = JOptionPane.showInputDialog ("Digite seu nome");
+//        sobrenome = JOptionPane.showInputDialog("Digite seu sobrenome");
+//        System.out.println("Seu nome completo é:" + sobrenome +" "+ nome);
 
     }
 }

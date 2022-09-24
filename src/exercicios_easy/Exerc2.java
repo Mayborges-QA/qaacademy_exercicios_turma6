@@ -3,6 +3,8 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exerc2 {
+
+
     public static void main(String[] args) {
        // Declarar variável do tipo texto varPalavra;
         String palavra;

@@ -1,14 +1,41 @@
 package main;
 
 import exemplos.MetodosSemMain;
+import exercicios_easy.Exec3;
+import exercicios_easy.Exec4;
+import exercicios_easy.Exec5;
 
 public class Execucao {
-    public static void main(String[] args) {
-        MetodosSemMain Exemplo = new MetodosSemMain();
+    //    EXERCICIO 5 EASY
 
-        Exemplo.empresaPiorParaSeTrabalhar();
-        System.out.println(Exemplo.melhorLugarParaSeTrabalhar("Itau"));
-        System.out.println(Exemplo.piorEmpresaParaSeTrabalhar("CSU"));
+    public static void main(String[] args) {
+        Exec5 exec5 = new Exec5();
+        int num1 = 10;
+        int num2 = 5;
+        int num3 = 9;
+        System.out.println(exec5.soma(num1,num2,num3));
+        System.out.println(exec5.subtracao(num1,num2,num3));
+        System.out.println(exec5.multiplicacao(num1,num2,num3));
+        System.out.println(exec5.media(num1,num2,num3));
+
+
+//-----------------------------------------------------------------------------------------
+//    EXERCICIO 4 EASY
+//    public static void main(String[] args) {
+//        Exec4 exec4 = new Exec4();
+//        System.out.println(exec4.dobroNumero(10));
+
+//  ---------------------------------------------------------------------------------------
+//    EXERCICIO 3 EASY
+//    public static void main(String[] args) {
+//        Exec3 exec3 = new Exec3();
+//        System.out.println(exec3.nomeTrocado("Mayara ", " Borges"));
+
+
+//        MetodosSemMain Exemplo = new MetodosSemMain();
+//        Exemplo.empresaPiorParaSeTrabalhar();
+//        System.out.println(Exemplo.melhorLugarParaSeTrabalhar("Itau"));
+//        System.out.println(Exemplo.piorEmpresaParaSeTrabalhar("CSU"));
     }
 
 }
