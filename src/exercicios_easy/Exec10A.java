@@ -4,17 +4,30 @@ package exercicios_easy;
 import javax.swing.*;
 
 public class Exec10A {
-    public static void main(String[] args) {
-        double valorInvestido, taxaJuros =0.05*10, valorJuros, valorTotal;
-        valorInvestido = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor investido"));
-        valorJuros = valorInvestido *taxaJuros;
-        valorTotal = valorInvestido+valorJuros;
-        System.out.println("Você investiu:"+ " " + valorInvestido);
-        System.out.println("Rendeu:" + " " + valorJuros + " " + "de Juros");
-        System.out.println("O Valor total é:" + " " + valorTotal);
+    public double investimento (double valorInvestido, double valorJuros){
+        int i=1;
+        while (i<=10){
+            valorJuros = (valorInvestido*0.05) + valorJuros;
+            i++;
+        }
+System.out.println("Você investiu:"+ " " + valorInvestido);
+System.out.println("Rendeu:" + " " + valorJuros + " " + "de Juros");
+System.out.println("O Valor total é:" + " " + valorTotal);
+
 
     }
 }
+//    public static void main(String[] args) {
+//        double valorInvestido, taxaJuros =0.05*10, valorJuros, valorTotal;
+//        valorInvestido = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor investido"));
+//        valorJuros = valorInvestido *taxaJuros;
+//        valorTotal = valorInvestido+valorJuros;
+//        System.out.println("Você investiu:"+ " " + valorInvestido);
+//        System.out.println("Rendeu:" + " " + valorJuros + " " + "de Juros");
+//        System.out.println("O Valor total é:" + " " + valorTotal);
+//
+//    }
+//}
 
 
 //Exibir: “Rendeu : ”+valorJuros + “de Juros”;

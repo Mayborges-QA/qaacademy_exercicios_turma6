@@ -1,18 +1,25 @@
 package exercicios_easy;
 
-import javax.swing.*;
-
 public class Exec11 {
-    public static void main(String[] args) {
-int num, i=1;
-num = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
-while (i<= 100){
-    System.out.println("A soma é:" + num );
-num = (num+2);
-i=i+1;}
-
+    public String somaMais2CemVezes(int numero) {
+        int i=1;
+        while (i <= 100) {
+            numero = numero + 2;
+            i++;
+        }
+        return "A Soma é" + numero;
     }
 }
+//    public static void main(String[] args) {
+//int num, i=1;
+//num = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
+//while (i<= 100){
+//    System.out.println("A soma é:" + num );
+//num = (num+2);
+//i=i+1;}
+//
+//    }
+//}
 
 //Inicio Algoritmo
 //Declarar variáveis do tipo numérico num, i=1;
